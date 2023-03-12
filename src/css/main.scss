@@ -1,5 +1,15 @@
-@use 'elements/reset';
-@use 'elements/global';
-@use 'trumps/helper';
+//settings
+@import 'settings/variables';
 
-@use 'components/lower-lp';
+//tools
+@import 'tools/mixin';
+
+//elements
+@import 'elements/reset';
+@import 'elements/global';
+
+//components
+@import 'components/lower-lp';
+
+//trumps
+@import 'trumps/helper';

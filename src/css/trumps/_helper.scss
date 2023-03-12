@@ -1,29 +1,33 @@
-@use 'settings/color' as color;
-
 .white {
-  color: color.$white;
+  color: $white;
 }
 
 .white-bg {
-  background: color.$white;
+  background: $white;
 }
 
 .black {
-  color: color.$black;
+  color: $black;
 }
 
 .black-bg {
-  background: color.$black;
-}
-
-.primary {
-  color: color.$primary;
-}
-
-.primary-bg {
-  background: color.$primary;
+  background: $black;
 }
 
 .overflow {
   overflow: hidden;
+}
+
+.pc {
+  display: block;
+  @include sp {
+    display: none;
+  }
+}
+
+.sp {
+  display: none;
+  @include sp {
+    display: block;
+  }
 }

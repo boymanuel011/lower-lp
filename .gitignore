@@ -113,3 +113,6 @@ dist/
 #lock file
 yarn.lock
 package-lock.json
+
+#.DS_Store file
+.DS_Store
