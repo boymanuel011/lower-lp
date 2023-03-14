@@ -2,15 +2,12 @@
 $black: #000;
 $white: #fff;
 $text: #333;
-$bg: #F7F4F2;
-$black-22: #222;
-$black-33: #333;
-$black-70: #707070;
-$gray-d7: #D7D1CB;
-$gray-84: #847B73;
-$pink-ec: #EC6D81;
-$pink-dc: #DC5B88;
-$shadow: #847B73;
+$bg:  #780501;
+$cream: #FEF1DE;
+$pink: #F2908F;
+
+
+
 
 //font-family
 $yugo: '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', sans-serif;
@@ -19,7 +16,12 @@ $bakervville: 'baskerville-display-pt', serif;
 $alt-gothic: 'alternate-gothic-condensed-a', sans-serif;
 $noto: 'Noto Sans', sans-serif;
 $object-fit: 'object-fit: cover; object-position: center;';
-$shin-maru: 'a-otf-ud-shin-maru-go-pr6n, sans-serif';
+$shin-maru: 'A-OTF Shin Maru Go Pro', sans-serif;
+$shin-maru: 'A-OTF Shin Maru Go Pro', sans-serif;
+$shin-maru-m: 'A-OTF Shin Maru Go M', sans-serif;
+$shin-maru-db: 'A-OTF Shin Maru Go DB', sans-serif;
+$han-sans: 'source-han-sans-japanese', sans-serif;
+$hiragino: 'Hiragino-Sans-GB-W3', sans-serif;
 
 //font-weight
 $bold: 700;
@@ -27,3 +29,34 @@ $semibold: 600;
 $medium: 500;
 $regular: 400;
 $light: 300;
+
+
+@font-face {
+  font-family: 'A-OTF Shin Maru Go Pro';
+  font-style:  normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("../fonts/A-OTF Shin Maru Go Pro R.otf") format("opentype")
+}
+@font-face {
+  font-family: 'A-OTF Shin Maru Go M';
+  font-style:  normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("../fonts/A-OTF Shin Maru Go Pro M.otf") format("opentype")
+}
+@font-face {
+  font-family: 'A-OTF Shin Maru Go DB';
+  font-style:  normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("../fonts/A-OTF Shin Maru Go Pro DB.otf") format("opentype")
+}
+@font-face {
+  font-family: 'Hiragino-Sans-GB-W3';
+  font-style:  normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("../fonts/Hiragino-Sans-GB-W3.otf") format("opentype")
+}
+
